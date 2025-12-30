@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" class="flex items-center justify-center font-sans">
+  <div dir="rtl" class="flex items-center justify-center font-sans bg-gray-100">
     <div class="rounded-lg p-6 w-4/5 max-w-6xl">
      
       <div class="flex items-center gap-3 mb-6">
