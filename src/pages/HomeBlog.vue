@@ -1,10 +1,10 @@
 <template>
-  <div  dir="rtl">
-    <div class="max-w-5xl mx-auto">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+  <div  dir="rtl " class="bg-gray-100">
+    <div class="max-w-5xl mx-auto ">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ">
         <!-- title-->
-        <div class="space-y-8 text-right order-2 lg:order-1">
-          <h2 class="text-3xl lg:text-4xl font-bold text-gray-800">
+        <div class="space-y-8 text-right order-2 lg:order-1 ">
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-800 ">
            همسفر رویاهای شما
           </h2>
           
