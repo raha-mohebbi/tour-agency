@@ -23,13 +23,13 @@
     <div class="max-w-5xl mx-auto">
 
       <!-- Tabs -->
-      <div class="flex gap-2 mb-6 justify-center flex-wrap">
+      <div class="flex gap-2 mb-6 mt-5 justify-right flex-wrap">
         <button 
           v-for="tab in tabs" 
           :key="tab" 
           @click="selectedTab = tab"
-          :class="selectedTab === tab ? 'bg-blue-900 text-white' : 'bg-white text-gray-700'"
-          class="px-4 py-2 rounded-md border border-gray-300 hover:bg-blue-50 transition"
+          :class="selectedTab === tab ? 'bg-[#051844] text-white' : ' text-gray-700 underline decoration-[#051844] decoration-1 underline-offset-8'"
+          class="px-4 py-2 rounded-tl-lg rounded-tr-lg  hover:bg-blue-50 transition"
         >
           {{ tab }}
         </button>
@@ -56,7 +56,7 @@
 
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-2 gap-2">
             <div class="text-blue-600 font-semibold">{{ tour.price }}</div>
-            <button class="bg-blue-900 text-white px-4 py-1 rounded hover:bg-blue-800 transition w-32">
+            <button class="bg-[#051844] border border-[#051844] text-white rounded-[10px] shadow-lg hover:bg-blue-800 hover:shadow-xl transition-all duration-300 text-lg  w-44 font-light  ">
               جزئیات تور
             </button>
           </div>
@@ -64,8 +64,8 @@
       </div>
 
       <!-- See more button -->
-      <div class="text-center mt-4">
-        <button class="px-4 py-2 border border-gray-300 rounded hover:bg-gray-200 transition">
+      <div class="text-left mt-4">
+        <button class="px-4 py-2 border border-[#051844] rounded-xl text-[#051844] hover:bg-gray-100 transition font-medium">
           مشاهده سایر تورها
         </button>
       </div>
@@ -77,7 +77,7 @@
 import { ref, onMounted } from 'vue'
 import { getTours, type Tour } from '../mock/tourslist'
 
-const tabs = ["تور خارجی", "تور فصلی", "تور تابستانه"]
+const tabs = ["تور خارجی", "تور قسطی", "تور تابستانه"]
 const selectedTab = ref("تور خارجی")
 
 const tours = ref<Tour[]>([])
