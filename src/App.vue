@@ -9,12 +9,10 @@ import OfferedHotels from "./pages/OfferedHotels.vue";
 import HomeBlog from "./pages/HomeBlog.vue";
 import TourMagazine from "./pages/TourMagazine.vue";
 import Footer from "./pages/Footer.vue";
-import LatestOffers from "./pages/LatestOffers.vue";
 </script>
 
 <template>
   <Navbar />
-
   <Header />
   <Header2 />
   <SpecialTours />
@@ -23,6 +21,5 @@ import LatestOffers from "./pages/LatestOffers.vue";
   <OfferedHotels />
   <HomeBlog />
   <TourMagazine />
-  <LatestOffers />
   <Footer />
 </template>
