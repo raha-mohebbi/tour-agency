@@ -1,0 +1,31 @@
+{
+  "name": "nexta-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 51770",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "simple-icons-vue": "^0.0.1",
+    "swiper": "^12.0.3",
+    "vue": "^3.5.24",
+    "vue-feather-icons": "^5.1.0",
+    "vue3-icon": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/vue-feather-icons": "^5.0.8",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vue-tsc": "^3.1.4"
+  }
+}
