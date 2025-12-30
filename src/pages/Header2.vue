@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 py-12 px-4" dir="rtl">
+  <div class="bg-gray-100 py-12 px-4" dir="rtl">
     <div class="max-w-5xl mx-auto">
    
       <h2 class="text-center text-2xl font-bold text-gray-800 mb-8">
